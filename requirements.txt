@@ -1,0 +1,7 @@
+openai-whisper
+pydub
+jiwer
+tqdm
+pandas
+matplotlib
+seaborn
