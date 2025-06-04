@@ -1,6 +1,6 @@
 # Cross-Country Fluency Analysis Using Whisper & ICNALE Spoken Corpus
 
-This project analyzes second-language English fluency across countries using the ICNALE Spoken Monologue dataset and OpenAI Whisper. We extract segment-level features such as speaking rate and pause duration, and compare fluency profiles across L1 backgrounds.
+This project analyzes second-language English fluency across countries using the ICNALE Spoken Monologue dataset and OpenAI Whisper. I extract segment-level features such as speaking rate and pause duration, and compare fluency profiles across L2 backgrounds.
 
 ## Key Features
 - Batch transcription using Whisper
