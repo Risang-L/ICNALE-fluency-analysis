@@ -4,12 +4,22 @@ This project analyzes second-language English fluency across countries using the
 
 ![Scatterplot](figures/fluency_scatterplot.png)
 
-## Key Features
-- Batch transcription using Whisper
-- Segment-level analysis (start, end, words/sec, pause_before)
-- Grouped fluency visualization by country
-- ENS (native speaker) baseline comparison
+## Average Words Per Second vs. Pause Duration (by Country)
+This scatterplot compares speaking rate (X-axis) and average pause length (Y-axis) across countries using data from the ICNALE Spoken Monologue corpus.
 
+Insights:
+
+🇯🇵 Japanese and 🇰🇷 Korean learners tend to speak slower and pause longer, suggesting greater planning time or hesitation during speech.
+
+🇵🇭 Filipino, 🇵🇰 Pakistani, and 🇭🇰 Hong Kong speakers demonstrate fast and fluent speech with short pauses, comparable to or exceeding native English speakers (ENS).
+
+🇸🇬 Singaporean speakers show the highest speaking rate, though with slightly longer pauses than ENS — possibly reflecting fast, chunked delivery patterns.
+
+🇮🇩 Indonesian and 🇨🇳 Chinese learners display moderate fluency, with varying pause behavior.
+
+🇹🇭 Thai and 🇹🇼 Taiwanese learners sit near the middle range of fluency and pausing.
+
+This plot helps visualize cross-linguistic fluency differences, with ENS serving as a native benchmark for pause efficiency and tempo.
 ## Structure
 ```
 data/
