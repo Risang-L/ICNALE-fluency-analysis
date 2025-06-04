@@ -51,5 +51,8 @@ pip install -r requirements.txt
 ## 🗂Data Source
 [ICNALE Spoken Monologue Corpus](https://language.sakura.ne.jp/icnale/)
 
+This repository does not include any raw audio or CSV data derived from the ICNALE Spoken Monologue Corpus, as redistribution is not permitted. Only code and generated visualizations are shared. If you wish to use the same dataset, please obtain it from the official ICNALE site
+
+
 ## Author
 Risang-L
