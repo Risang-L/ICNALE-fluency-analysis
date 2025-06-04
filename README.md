@@ -2,13 +2,13 @@
 
 This project analyzes second-language English fluency across countries using the ICNALE Spoken Monologue dataset and OpenAI Whisper. We extract segment-level features such as speaking rate and pause duration, and compare fluency profiles across L1 backgrounds.
 
-## 📊 Key Features
+## Key Features
 - Batch transcription using Whisper
 - Segment-level analysis (start, end, words/sec, pause_before)
 - Grouped fluency visualization by country
 - ENS (native speaker) baseline comparison
 
-## 📁 Structure
+## Structure
 ```
 data/
 ├── wav/                      # Audio files (converted to .wav)
@@ -24,13 +24,13 @@ notebooks/
 └── analysis.ipynb
 ```
 
-## 🔧 Requirements
+## Requirements
 Install with:
 ```bash
 pip install -r requirements.txt
 ```
 
-## 🚀 Run Steps
+## Run Steps
 1. Convert audio:
    ```bash
    python scripts/convert_to_wav.py
@@ -48,8 +48,8 @@ pip install -r requirements.txt
    jupyter notebook notebooks/analysis.ipynb
    ```
 
-## 🗂️ Data Source
+## 🗂Data Source
 [ICNALE Spoken Monologue Corpus](https://language.sakura.ne.jp/icnale/)
 
-## 🧠 Author
-Risang Latunra
+## Author
+Risang-L
