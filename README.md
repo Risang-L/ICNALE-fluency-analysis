@@ -11,9 +11,9 @@ This project analyzes second-language English fluency across countries using the
 ## Structure
 ```
 data/
-├── wav/                      # Audio files (converted to .wav)
-├── whisper_outputs/         # Transcriptions from Whisper
-└── segment_level_analysis.csv  # Main dataset used in analysis
+├── wav/                            # Audio files (converted to .wav)
+├── whisper_outputs/                # Transcriptions from Whisper
+└── segment_level_analysis.csv      # Main dataset used in analysis
 
 scripts/
 ├── convert_to_wav.py
