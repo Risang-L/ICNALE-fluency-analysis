@@ -2,6 +2,8 @@
 
 This project analyzes second-language English fluency across countries using the ICNALE Spoken Monologue dataset and OpenAI Whisper. I extract segment-level features such as speaking rate and pause duration, and compare fluency profiles across L2 backgrounds.
 
+![Scatterplot](figures/fluency_scatterplot.png)
+
 ## Key Features
 - Batch transcription using Whisper
 - Segment-level analysis (start, end, words/sec, pause_before)
